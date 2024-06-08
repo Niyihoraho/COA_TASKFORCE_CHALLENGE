@@ -84,5 +84,4 @@ The NEXT_CHALLENGES folder contains additional coding challenges, including:
 4.3 Coding Challenge 2: String Transformation
 These are part of the photoGallery project.
 
-Technologies Used
-##This project uses Vite as the build tool. To run the project, use the following command:
+##Technologies Used This project uses Vite as the build tool. To run the project, use the following command:
