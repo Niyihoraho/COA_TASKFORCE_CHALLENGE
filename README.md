@@ -21,27 +21,20 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/Niyihoraho/COA_TASKFORCE_CHALLENGE.git
 
-Navigate to the project directory:
+2. **Navigate to the project directory:**
+   ```bash
+    cd COA_TASKFORCE_CHALLENGE
 
-bash
+3. **Install dependencies:**
+   ```bash
+    npm install
 
-cd COA_TASKFORCE_CHALLENGE
+## Running the Project
+   To run the project locally, use the following commands:
 
-Install dependencies:
-
-bash
-
-npm install
-
-Running the Project
-To run the project locally, use the following commands:
-
-Start the development server:
-
-bash
-
-npm run dev
-
+1. **Start the development server:**
+   ```bash
+   npm run dev
 
 COA_TASKFORCE_CHALLENGE/
 │
@@ -92,8 +85,4 @@ The NEXT_CHALLENGES folder contains additional coding challenges, including:
 These are part of the photoGallery project.
 
 Technologies Used
-This project uses Vite as the build tool. To run the project, use the following command:
-
-bash
-Copy code
-npm run dev
+##This project uses Vite as the build tool. To run the project, use the following command:
