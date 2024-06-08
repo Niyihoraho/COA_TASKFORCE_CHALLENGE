@@ -5,8 +5,7 @@
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Additional Information](#additional-information)
 
 ## Prerequisites
 
@@ -22,15 +21,38 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/Niyihoraho/COA_TASKFORCE_CHALLENGE.git
 
+Navigate to the project directory:
 
-#Folder Structure
-Here's an overview of the project's folder structure:
+bash
+
+cd COA_TASKFORCE_CHALLENGE
+
+Install dependencies:
+
+bash
+
+npm install
+
+Running the Project
+To run the project locally, use the following commands:
+
+Start the development server:
+
+bash
+
+npm run dev
+
 
 COA_TASKFORCE_CHALLENGE/
 │
 ├── NEXT_CHALLENGES/
 │   ├── challenge_2.html
-│   └── challenge_3.html
+│   ├── challenge_3.html
+│   ├── challenge_4.html
+│   ├── challenge_5.html
+│   ├── challenge_6.html
+│   ├── challenge_7.html
+│   └── challenge_8.html
 │
 ├── src/
 │   ├── assets/
@@ -62,3 +84,16 @@ COA_TASKFORCE_CHALLENGE/
 ├── package.json
 ├── README.md
 └── vite.config.js
+Additional Information
+The NEXT_CHALLENGES folder contains additional coding challenges, including:
+
+4.2 Coding Challenge 1: Array Manipulation
+4.3 Coding Challenge 2: String Transformation
+These are part of the photoGallery project.
+
+Technologies Used
+This project uses Vite as the build tool. To run the project, use the following command:
+
+bash
+Copy code
+npm run dev
