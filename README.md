@@ -1,7 +1,5 @@
 # PhotoGallery
 
-PhotoGallery is a web application that allows users to view and manage their photo collections. This project is built with modern web technologies including React and Vite.
-
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
