@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    ><script>
+        function transformString(str) {
+  const isDivisibleBy3 = str.length % 3 === 0;
+  const isDivisibleBy5 = str.length % 5 === 0;
+
+  if (isDivisibleBy3 && isDivisibleBy5) {
+    str = str.split("").reverse().join("");
+    return str.split("").map(char => char.charCodeAt(0)).join(" ");
+  } else if (isDivisibleBy3) {
+    return str.split("").reverse().join("");
+  } else if (isDivisibleBy5) {
+    return str.split("").map(char => char.charCodeAt(0)).join(" ");
+  } else {
+    return str;
+  }
+}
+
+
+console.log(transformString("Hello World"));  // Output: "87 111 114 108 100 32 111 108 108 101 72"
+console.log(transformString("Hi"));           // Output: "72i" (reversed)
+console.log(transformString("Apple"));         // Output: "65 112 112 108 101" (ASCII codes)
+console.log(transformString("This is a test")); // Output: "This is a test" (no transformation)
+
+    </script>
+</body>
+</html>
